@@ -16,4 +16,7 @@ Some Errors after ` iex -S mix phx.server ` upgrading xcode and accepting the li
 
 ### Updating the landing page
 
-Update `lib/chat_web/templates/layout/root.html.heex`
+Update `lib/chat_web/templates/layout/root.html.heex` - Clean up Menu
+
+### Add dependencies 
+
