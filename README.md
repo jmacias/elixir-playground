@@ -19,4 +19,7 @@ Some Errors after ` iex -S mix phx.server ` upgrading xcode and accepting the li
 Update `lib/chat_web/templates/layout/root.html.heex` - Clean up Menu
 
 ### Add dependencies 
+Add: https://github.com/devshane/mnemonic_slugs
+`mix deps.get` and `iex -S mix phx.server`
 
+### 
