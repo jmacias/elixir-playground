@@ -22,4 +22,7 @@ Update `lib/chat_web/templates/layout/root.html.heex` - Clean up Menu
 Add: https://github.com/devshane/mnemonic_slugs
 `mix deps.get` and `iex -S mix phx.server`
 
-### 
+### Update Landing page Index
+
+The view is using different version of Phx. 
+I had to create a Live View Controller.
