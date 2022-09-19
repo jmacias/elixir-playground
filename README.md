@@ -26,3 +26,7 @@ Add: https://github.com/devshane/mnemonic_slugs
 
 The view is using different version of Phx. 
 I had to create a Live View Controller.
+
+## Redirect to Random Chat Room
+
+Add controller to handle random chat rooms. To not implement render on LiveControler, had to add `lib/chat_web/controllers/room_live.html.heex`
