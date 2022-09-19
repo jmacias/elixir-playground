@@ -1,1 +1,13 @@
-Hola Mundo 
+<p>
+    Currently in room: <%= @room_id  %>
+    </p>
+
+<%= f = form_for :chat, "#", id: "chat-form", phx_submit: :submit_message%>
+    <%= text_input f, :message, placeholder: "Enter Message..." %>
+<div id="chat">
+    <div id="message">
+        <%= for m <- @messages do %>
+           <p> <%=  m %> </p>
+        <% end %>
+    </div>
+</div>

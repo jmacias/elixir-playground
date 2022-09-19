@@ -30,3 +30,7 @@ I had to create a Live View Controller.
 ## Redirect to Random Chat Room
 
 Add controller to handle random chat rooms. To not implement render on LiveControler, had to add `lib/chat_web/controllers/room_live.html.heex`
+
+## Add chat page and chat actions
+* Add live-view form to enter message
+* Store messages in the Socket
